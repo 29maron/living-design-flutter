@@ -145,19 +145,5 @@ class Edit extends StatelessWidget {
       ],
     );
   }
-
-  /*showPickerModal(BuildContext context) {
-    Picker(
-        adapter: PickerDataAdapter<String>(pickerdata: JsonDecoder().convert(PickerData)),
-        changeToFirst: true,
-        hideHeader: false,
-        selectedTextStyle: TextStyle(color: Colors.blue),
-        onConfirm: (Picker picker, List value) {
-          print(value.toString());
-          print(picker.adapter.text);
-        }
-    ).showModal(context); //_scaffoldKey.currentState);
-  }*/
-
-
+  
 }
