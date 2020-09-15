@@ -1,0 +1,60 @@
+{
+  "items":[
+    {
+      "id": "10000",
+      "name": "洗濯機",
+      "genre": "洗濯機",
+      "modelNumber": "111111",
+      "price": 20000,
+      "purchaseDate": "2019/11/10",
+      "warrantyPeriod": "2021/11/10",
+      "reason": "洗いやすい",
+      "comfort": 4,
+      "otherTargets": "特になし",
+      "memo": "めっちゃ綺麗になる",
+      "photo": "washing-machine.jpeg"
+    },
+    {
+      "id": "10001",
+      "name": "テレビ",
+      "genre": "テレビ",
+      "modelNumber": "22222",
+      "price": 10000,
+      "purchaseDate": "2019/08/10",
+      "warrantyPeriod": "2021/08/10",
+      "reason": "4K",
+      "comfort": 5,
+      "otherTargets": "ブラビア",
+      "memo": "画質きれい",
+      "photo": "tv.jpeg"
+    },
+    {
+      "id": "10002",
+      "name": "コピー機",
+      "genre": "コピー機",
+      "modelNumber": "dfsdf2",
+      "price": 10000,
+      "purchaseDate": "2019/04/10",
+      "warrantyPeriod": "2021/04/10",
+      "reason": "印刷がきれい",
+      "comfort": 5,
+      "otherTargets": "特になし",
+      "memo": "速い",
+      "photo": "copier.jpeg"
+    },
+    {
+      "id": "10003",
+      "name": "オーブン",
+      "genre": "オーブン",
+      "modelNumber": "22ddfs2",
+      "price": 10000,
+      "purchaseDate": "2019/02/10",
+      "warrantyPeriod": "2021/02/10",
+      "reason": "特になし",
+      "comfort": 3,
+      "otherTargets": "特になし",
+      "memo": "電力めっちゃ使う",
+      "photo": "oven.jpeg"
+    }
+  ]
+}
