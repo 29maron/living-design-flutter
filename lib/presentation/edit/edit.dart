@@ -91,8 +91,8 @@ class Edit extends StatelessWidget {
                   EditText('名前',nameEdittingController,context),
                   EditText('ジャンル',genreEdittingController,context),
                   RaisedButton(
-                    onPressed: (){
-                      model.showPickerModal(context);
+                    onPressed: () async {
+                      await model.showPickerModal(context);
                       print(model.genre);
                       },
                     child: Text(model.genre),
@@ -145,5 +145,5 @@ class Edit extends StatelessWidget {
       ],
     );
   }
-  
+
 }

@@ -21,8 +21,7 @@ class EditModel extends ChangeNotifier {
           print(value);
           print(picker.adapter.getText());
           print(picker.getSelectedValues().toString());
-          print(picker.getSelectedValues().toString());
-          genre = picker.adapter.text.toString();
+          genre = picker.adapter.text.toString().replaceAll("]", "").replaceAll("[", "");
         }
     ).showModal(context);
     notifyListeners();
